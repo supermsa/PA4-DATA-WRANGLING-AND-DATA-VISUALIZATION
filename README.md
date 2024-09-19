@@ -102,7 +102,30 @@ plt.tight_layout()
 plt.show()
 ```
 > This function renders and displays the figure with all three subplots. Without plt.show(), the plots may not appear (especially in script-based environments).
+
+##
+
+### Output and Graph Analysis: 
+![Screen Shot 2024-09-19 at 8 20 08 AM](https://github.com/user-attachments/assets/e9ef94c8-51ce-4d4d-9d6e-6e78dd548b03)
+
+#### Average Grade - Track:
+* The first graph shows three tracks: Communication, Instrumentation, and Microelectronics.
+* The average grades for all three tracks are relatively similar, each around the 60s mark. This suggests a consistent performance across the tracks in terms of grading.
+
+#### Average Grade - Gender:
+* The second graph compares the average grades between females and males.
+* Both genders have almost identical average grades, again in the 60s, indicating no significant gender-based differences in grade outcomes for the sampled population.
+
+#### Average Grade - Hometown:
+* The third graph categorizes average grades by the students' hometown regions: Luzon, Mindanao, and Visayas.
+* Similar to the other graphs, all three regions show nearly equal average grades, suggesting that the hometown region does not significantly influence the grading outcomes.
 <br>
+
+> Does chosen track in college, gender, or hometown contributes to a higher average score? <br>
+
+Based on the graphs alone, these three factors (track, gender, or hometown) do not appear to contribute to a higher average score. The minimal variation in average grades across the categories—track (Communication, Instrumentation, Microelectronics), gender (Female, Male), and hometown (Luzon, Mindanao, Visayas)—shows that all groups scored around the 60s, a nearly identical average.
+
+
 
 ***
 ### References
